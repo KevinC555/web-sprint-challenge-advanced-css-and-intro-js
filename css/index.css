@@ -134,3 +134,28 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/* Media Queries Styles */
+
+@media (max-width: 500px) {
+	.title-container div{
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 40vh;
+	}
+
+	.artists-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		line-height: 1;
+	}
+		
+}
+
+/* this code is extremely buggy, I dob't know if it's my browser being ridiculous but this should be working with these media queries. It's almost as if this was written for mobile, then desktop, then mobile deleted, it works with min-width, but not max-width
+
+
+*/
