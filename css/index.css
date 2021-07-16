@@ -158,8 +158,3 @@ button:hover{
 		height: 30vh;
 	}
 }
-
-/* this code is extremely buggy, I dob't know if it's my browser being ridiculous but this should be working with these media queries. It's almost as if this was written for mobile, then desktop, then mobile deleted, it works with min-width, but not max-width
-
-
-*/
